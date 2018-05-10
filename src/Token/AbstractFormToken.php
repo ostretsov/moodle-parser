@@ -8,7 +8,7 @@ namespace Ostretsov\MoodleParser\Token;
 
 use Ostretsov\MoodleParser\Exception\InvalidFormTokenException;
 
-abstract class AbstractFormToken implements TokenInterface
+abstract class AbstractFormToken implements Token
 {
     /**
      * @var float

@@ -6,7 +6,7 @@
 
 namespace Ostretsov\MoodleParser\Token;
 
-interface TokenInterface
+interface Token
 {
     public function getType(): string;
 }

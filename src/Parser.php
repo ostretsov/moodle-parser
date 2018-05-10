@@ -12,7 +12,7 @@ use Ostretsov\MoodleParser\Token\AbstractFormToken;
 use Ostretsov\MoodleParser\Token\MultiChoiceFormToken;
 use Ostretsov\MoodleParser\Token\ShortAnswerFormToken;
 use Ostretsov\MoodleParser\Token\StringToken;
-use Ostretsov\MoodleParser\Token\TokenInterface;
+use Ostretsov\MoodleParser\Token\Token;
 use Ostretsov\MoodleParser\Util\StringUtil;
 
 final class Parser
@@ -20,7 +20,7 @@ final class Parser
     /**
      * @param string $value
      *
-     * @return TokenInterface[]
+     * @return Token[]
      */
     public static function parse(string $value): array
     {
@@ -33,7 +33,7 @@ final class Parser
     /**
      * @param string $value
      *
-     * @return TokenInterface[]
+     * @return Token[]
      */
     private static function tokenize(string $value): array
     {

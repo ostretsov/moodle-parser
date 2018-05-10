@@ -6,7 +6,7 @@
 
 namespace Ostretsov\MoodleParser\Token;
 
-final class StringToken implements TokenInterface
+final class StringToken implements Token
 {
     private $value;
 
