@@ -1,0 +1,23 @@
+{
+  "name": "ostretsov/moodle-parser",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": { "Ostretsov\\MoodleParser\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Tests\\": "tests/" }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "dev-master",
+    "phpunit/phpunit": "~5.7.1",
+    "phploc/phploc": "^4.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
